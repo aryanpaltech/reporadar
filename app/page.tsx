@@ -113,10 +113,12 @@ export default function Home() {
             Discover developers
           </p>
 
-          <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-            Explore any GitHub
-            <span className="block text-violet-400">profile in seconds.</span>
-          </h1>
+         
+<h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+  Your GitHub profile,
+  <span className="block text-violet-400">decoded in seconds.</span>
+</h1>
+
 
           <p className="mx-auto mt-5 max-w-xl text-slate-400">
             Discover developer statistics, popular repositories, and
