@@ -212,6 +212,21 @@ export default function Home() {
               </div>
             </section>
 
+           <div className="mb-8 rounded-2xl border border-violet-500/30 bg-slate-900 p-6">
+  <p className="text-sm text-slate-400">Profile Completeness</p>
+  <p className="mt-2 text-3xl font-bold text-violet-400">
+    {profileScore}/100
+  </p>
+  <div className="mt-4 h-2 overflow-hidden rounded-full bg-slate-800">
+    <div
+      className="h-full rounded-full bg-violet-500"
+      style={{ width: `${profileScore}%` }}
+    />
+  </div>
+  <p className="mt-3 text-xs text-slate-400">
+    An informal score based on public profile details, not coding ability.
+  </p>
+</div>
             <section className="grid gap-8 lg:grid-cols-[2fr_1fr]">
               <div>
                 <h2 className="mb-5 text-xl font-bold">
