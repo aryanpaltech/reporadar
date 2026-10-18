@@ -83,7 +83,15 @@ export default function Home() {
       setLoading(false);
     }
   }
-
+  const profileScore = user
+    ? Math.min(
+        100,
+        (user.public_repos > 0 ? 25 : 0) +
+          (user.followers >= 10 ? 25 : user.followers > 0 ? 15 : 0) +
+          (user.bio ? 25 : 0) +
+          (user.name ? 25 : 0)
+      )
+    : 0;
   const languages = repos.reduce<Record<string, number>>((counts, repo) => {
     if (repo.language) counts[repo.language] = (counts[repo.language] || 0) + 1;
     return counts;
@@ -199,6 +207,7 @@ export default function Home() {
                     <p className="text-sm text-slate-400">{label}</p>
                     <p className="mt-2 text-3xl font-bold">{value}</p>
                   </div>
+                  
                 ))}
               </div>
             </section>
