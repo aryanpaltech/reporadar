@@ -227,6 +227,32 @@ export default function Home() {
     An informal score based on public profile details, not coding ability.
   </p>
 </div>
+    
+<section className="mb-8 rounded-2xl border border-slate-800 bg-slate-900 p-6">
+  <h2 className="text-xl font-bold">Profile Improvement Checklist</h2>
+  <p className="mt-2 text-sm text-slate-400">
+    Simple ways to make your GitHub profile more informative.
+  </p>
+  <div className="mt-5 space-y-3">
+    <div className="flex items-center gap-3">
+      <span className="text-emerald-400">✓</span>
+      <span>Review your profile name and bio</span>
+    </div>
+    <div className="flex items-center gap-3">
+      <span className="text-violet-400">→</span>
+      <span>Add a clear description to your best repositories</span>
+    </div>
+    <div className="flex items-center gap-3">
+      <span className="text-violet-400">→</span>
+      <span>Pin your strongest projects on GitHub</span>
+    </div>
+    <div className="flex items-center gap-3">
+      <span className="text-violet-400">→</span>
+      <span>Keep project READMEs clear and up to date</span>
+    </div>
+  </div>
+</section>
+       
             <section className="grid gap-8 lg:grid-cols-[2fr_1fr]">
               <div>
                 <h2 className="mb-5 text-xl font-bold">
