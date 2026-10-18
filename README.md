@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RepoRadar 🔎
 
-## Getting Started
+**Understand any GitHub profile at a glance.**
 
-First, run the development server:
+RepoRadar is a GitHub profile analyzer built with Next.js, TypeScript, and Tailwind CSS. Enter a GitHub username to explore public profile information, discover popular repositories, view programming language distribution, and get profile improvement suggestions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **GitHub Profile Search** — Look up public GitHub profiles by username.
+- **Profile Overview** — View the user's avatar, bio, followers, following, and public repositories.
+- **Popular Repositories** — Explore repositories with useful details, including stars and programming languages.
+- **Language Distribution** — Visualize the programming languages used across repositories.
+- **Profile Completeness Score** — Get an informal score based on selected public profile details.
+- **Improvement Checklist** — Discover practical ways to make a GitHub profile more informative.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- GitHub REST API
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Install [Node.js](https://nodejs.org/) before starting.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/aryanpaltech/reporadar.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Open the project folder:
+
+   ```bash
+   cd reporadar
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📌 Project Status
+
+RepoRadar is under active development. New features and improvements will be added as the project evolves.
+
+## 👨‍💻 Author
+
+**Aryan Pal**
+
+- GitHub: [@aryanpaltech](https://github.com/aryanpaltech)
+
+## 📄 License
+
+No license has been added yet.
